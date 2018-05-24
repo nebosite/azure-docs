@@ -55,6 +55,7 @@ An authentication related error occurred (during authentication or during access
    
     Verify both [Analytics portal](https://analytics.applicationinsights.io) and [Azure Active Directory portal](https://portal.azure.com) are in the same security zone:
    
+   * **Important**: You must add these site exceptions to both "Trustest Sites" AND "Local Intranet"
    * In Internet Explorer, open **Internet Options**, **Security**, **Trusted sites**, **Sites**:
      
      ![Internet Options dialog, adding a site to Trusted Sites](./media/app-insights-analytics-troubleshooting/033.png)
